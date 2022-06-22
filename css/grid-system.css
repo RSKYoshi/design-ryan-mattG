@@ -1,9 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Anton&display=swap');
+
+
 #logo {
     width: 30px
 }
 #title {
     font-size: 4rem;
-    font-weight: 1000;
-    font-stretch: ultra-condensed;
-    font-family: "Arial Narrow", sans-serif;
+    font-family: 'Anton', sans-serif;
 }
+
+
+
+/*this is the font syntax for the smaller font */
+/*font-family: 'Abel', sans-serif;*/
