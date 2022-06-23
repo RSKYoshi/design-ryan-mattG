@@ -1,9 +1,17 @@
 #logo {
-    width: 30px
+    width: 2em;
 }
 #title {
     font-size: 4rem;
     font-weight: 1000;
     font-stretch: ultra-condensed;
     font-family: "Arial Narrow", sans-serif;
+}
+.btn-circle.btn-xl {
+    width: 70px;
+    height: 70px;
+    padding: 10px 16px;
+    border-radius: 35px;
+    font-size: 24px;
+    line-height: 1.33;
 }
