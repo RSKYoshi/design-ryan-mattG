@@ -1,12 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Anton&display=swap');
+
+
 #logo {
     width: 2em;
 }
 #title {
     font-size: 4rem;
-    font-weight: 1000;
-    font-stretch: ultra-condensed;
-    font-family: "Arial Narrow", sans-serif;
+    font-family: 'Anton', sans-serif;
 }
+
 .btn-circle.btn-xl {
     width: 70px;
     height: 70px;
@@ -15,3 +17,10 @@
     font-size: 24px;
     line-height: 1.33;
 }
+=======
+
+
+
+/*this is the font syntax for the smaller font */
+/*font-family: 'Abel', sans-serif;*/
+>>>>>>> 821cc3b1414429a6c781a4c5cf497425986cf7f4
