@@ -52,8 +52,19 @@ body {
     background-color: var(--host-color)
 }
 
+.selected-work {
+    font-family: 'Abel', sans-serif
+}
+
+col-xl-12{
+
+
+}
 
 
 
 /*this is the font syntax for the smaller font */
-/*font-family: 'Abel', sans-serif;*/
+/*!*font-family: 'Abel', sans-serif;*!*/
+
+/*this is the syntax for the larger font*/
+/*font-family: 'Anton', sans-serif;*/
