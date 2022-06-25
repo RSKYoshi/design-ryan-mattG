@@ -56,11 +56,49 @@ body {
     font-family: 'Abel', sans-serif
 }
 
-#ipad-apples {
-    padding: px;
+.container {
+    padding: .5rem;
 }
 
+#featured-project {
+    font-family: 'Abel', sans-serif;
+}
 
+#button-d {
+    border-radius: 19px;
+    width: 18px;
+    height: 18px;
+    
+}
+
+#button-d2 {
+    border-radius: 19px;
+    width: 18px;
+    height: 18px;
+
+}
+
+#button-s {
+    border-radius: 19px;
+    width: 18px;
+    height: 18px;
+    background: var(--support-color);
+}
+
+#button-h {
+    border-radius: 19px;
+    width: 18px;
+    height: 18px;
+}
+
+.d-flex{
+    justify-content: end;
+}
+
+#fp {
+    margin-right: 296.4px;
+    padding:0
+}
 
 /*this is the font syntax for the smaller font */
 /*!*font-family: 'Abel', sans-serif;*!*/
