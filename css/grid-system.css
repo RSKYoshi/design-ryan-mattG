@@ -84,6 +84,9 @@ body {
     height: 18px;
     background: var(--support-color);
 }
+#fullbuttons {
+    white-space: nowrap;
+}
 
 #button-h {
     border-radius: 19px;
