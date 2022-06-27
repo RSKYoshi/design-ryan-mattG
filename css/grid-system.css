@@ -85,7 +85,14 @@ body {
     background: var(--support-color);
 }
 #fullbuttons {
-    white-space: nowrap;
+    flex-wrap: wrap;
+    display: flex;
+}
+.fullbtns {
+    min-width: 1%;
+    display: flex;
+    justify-content: space-evenly;
+
 }
 
 #button-h {
