@@ -15,7 +15,8 @@ body {
 #logo {
     width: 2rem;
 }
-#title {
+
+.primaryFont {
     font-family: 'Anton', sans-serif;
 }
 
@@ -60,25 +61,25 @@ body {
     padding: .5rem;
 }
 
-#featured-project {
+.secondaryFont {
     font-family: 'Abel', sans-serif;
 }
 
-#button-d {
+.button-d {
     border-radius: 19px;
     width: 18px;
     height: 18px;
     
 }
 
-#button-d2 {
+.button-d2 {
     border-radius: 19px;
     width: 18px;
     height: 18px;
 
 }
 
-#button-s {
+.button-s {
     border-radius: 19px;
     width: 18px;
     height: 18px;
@@ -95,7 +96,7 @@ body {
 
 }
 
-#button-h {
+.button-h {
     border-radius: 19px;
     width: 18px;
     height: 18px;
@@ -105,7 +106,7 @@ body {
     justify-content: end;
 }
 
-#fp {
+.fp {
     margin-right: 296.4px;
     padding:0
 }
