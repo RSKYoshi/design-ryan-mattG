@@ -8,16 +8,19 @@
     --host-color: #00aba9;
 }
 
+.primaryFont {
+    font-family: 'Anton', sans-serif;
+}
+.secondaryFont {
+    font-family: 'Abel', sans-serif;
+}
+
 body {
     background-color: var(--bg-color);
 }
 
 #logo {
     width: 2rem;
-}
-
-.primaryFont {
-    font-family: 'Anton', sans-serif;
 }
 
 #maintitle {
@@ -27,18 +30,32 @@ body {
 #subtitle {
     font-size: 2.5rem;
 }
-
+.featured {
+    display: flex;
+}
+.featuredtext {
+    display: flex;
+    flex-grow: 2;
+    margin: auto;
+}
 .btn-circle.btn-xl {
     width: 6rem;
     height: 6rem;
     font-family: 'Anton', sans-serif;
     color: white;
     padding: .625rem 1rem;
-    border-radius: 3rem;
+    border-radius: 3rem;g
     border-width: .5rem;
     border-color: white;
     font-size: 1rem;
     line-height: 1.33;
+}
+.btn-circle.btn-sm {
+    width: 1.5rem;
+    height: 1.5rem;
+    border-radius: 1.5rem;
+    padding: 0;
+
 }
 .design {
     background-color: var(--design-color)
@@ -53,38 +70,10 @@ body {
     background-color: var(--host-color)
 }
 
-.selected-work {
-    font-family: 'Abel', sans-serif
-}
-
 .container {
     padding: .5rem;
 }
 
-.secondaryFont {
-    font-family: 'Abel', sans-serif;
-}
-
-.button-d {
-    border-radius: 19px;
-    width: 18px;
-    height: 18px;
-    
-}
-
-.button-d2 {
-    border-radius: 19px;
-    width: 18px;
-    height: 18px;
-
-}
-
-.button-s {
-    border-radius: 19px;
-    width: 18px;
-    height: 18px;
-    background: var(--support-color);
-}
 #fullbuttons {
     flex-wrap: wrap;
     display: flex;
@@ -96,12 +85,6 @@ body {
 
 }
 
-.button-h {
-    border-radius: 19px;
-    width: 18px;
-    height: 18px;
-}
-
 .d-flex{
     justify-content: end;
 }
@@ -109,6 +92,10 @@ body {
 .fp {
     margin-right: 296.4px;
     padding:0
+}
+
+.swork {
+    max-width: 650px;
 }
 
 /*this is the font syntax for the smaller font */
