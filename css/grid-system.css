@@ -57,7 +57,10 @@ body {
     padding: 0;
     margin: .2rem;
     font-family: 'Anton', sans-serif;
-
+}
+.btn-circle:hover {
+    border-color: var(--bg-color);
+    color: var(--bg-color);
 }
 .design {
     background-color: var(--design-color)
@@ -88,8 +91,8 @@ body {
 }
 
 .lastImages {
-    width: 6rem;
-    height: ;
+    height: 5rem;
+    max-width: 40%;
 }
 
 /*this is the font syntax for the smaller font */
