@@ -84,7 +84,6 @@ body {
     display: flex;
 }
 .fullbtns {
-    min-width: 1%;
     display: flex;
     justify-content: space-evenly;
 
